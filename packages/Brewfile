@@ -166,7 +166,7 @@ brew 'nginx'              # Web server used with Larvel Valet in ~/Sites
 brew 'dog'                # DNS lookup client (better dig) - Rust
 
 # Security Utilities
-brwe 'bitwarden-cli'     # Bitwarden CLI
+brew 'bitwarden-cli'     # Bitwarden CLI
 brew 'clamav'            # Open source virus scanning suite
 brew 'gnupg'             # GNU Privacy Guard
 brew 'lynis'             # Scan system for common security issues
