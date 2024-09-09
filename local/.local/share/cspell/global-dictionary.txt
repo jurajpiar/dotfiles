@@ -38,6 +38,7 @@ dictsort
 dotfiles
 easymotion
 edheltzel
+jurajpiar
 eleventy
 elif
 endeach

@@ -11,10 +11,10 @@
 [credential]
   helper = osxkeychain
 [user]
-  name  = Ed Heltzel
-  email = 402910+edheltzel@users.noreply.github.com
+  name  = Juraj Piar
+  email = 402910+jurajpiar@users.noreply.github.com
 [github]
-  user = edheltzel
+  user = jurajpiar
 [color]
   ui     = auto
   branch = auto

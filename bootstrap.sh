@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Define the source and target locations
-SOURCE="https://github.com/edheltzel/dotfiles"
+SOURCE="https://github.com/jurajpiar/dotfiles"
 TARBALL="$SOURCE/tarball/master"
 TARGET="$HOME/.dotfiles"
 TAR_CMD="tar -xzv -C \"$TARGET\" --strip-components=1 --exclude='{.gitignore}'"

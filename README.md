@@ -1,4 +1,4 @@
-<h1 id="to-the-top">Mr EdHeltzel's Dotfiles</h1>
+<h1 id="to-the-top">jurajpiar's Dotfiles</h1>
 
 ### My setup for 🐠 Fish shell on  macOS - `v3`
 
@@ -29,7 +29,7 @@ Table of Contents:
 
   In theory, this will clone the repository and install everything outlined below. Again, In theory.
   ```shell
-  bash -c "`curl -fsSL https://raw.githubusercontent.com/edheltzel/dotfiles/master/bootstrap.sh`"
+  bash -c "`curl -fsSL https://raw.githubusercontent.com/jurajpiar/dotfiles/master/bootstrap.sh`"
   ```
 </details>
 
@@ -73,7 +73,7 @@ Table of Contents:
   7. `csrutil status` -> should read `System Integrity Protection status: disabled.`
 </details>
 
-<h2 id="for-future-ed">👋 For future Mr EdHeltzel<a href="#to-the-top">↑</a></h2>
+<h2 id="for-future-ed">👋 For future Mr jurajpiar<a href="#to-the-top">↑</a></h2>
 
 Since we have a bad habit of forgetting things - see [Troubleshooting](#troubleshooting):
 
@@ -84,7 +84,7 @@ Since we have a bad habit of forgetting things - see [Troubleshooting](#troubles
     - `eval "$(ssh-agent -s)" && ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
 
 3. Clone repo
-    - `git clone https://github.com/edheltzel/dotfiles.git ~/.dotfiles`
+    - `git clone https://github.com/jurajpiar/dotfiles.git ~/.dotfiles`
 4. Use the [`Makefile`](makefile) for the rest of the setup
     - `cd ~/.dotfiles && make install`
     - Alternatively, run install script `cd ~/.dotfiles && ./install.sh`
@@ -234,7 +234,7 @@ Any of the scripts can be run individually at any time to update/reset as needed
 <details>
   <summary>GPG Commit Signing - <em>optional</em></summary>
 
-  GPG signing is set to `TRUE` by default. If you rather not enable GPG then execute: `git config --global commit.gpgsign false` and remove the GPG packages from the [Brewfile](https://github.com/edheltzel/dotfiles/blob/master/packages/Brewfile).
+  GPG signing is set to `TRUE` by default. If you rather not enable GPG then execute: `git config --global commit.gpgsign false` and remove the GPG packages from the [Brewfile](https://github.com/jurajpiar/dotfiles/blob/master/packages/Brewfile).
 
   [renew expired gpg](https://gist.github.com/krisleech/760213ed287ea9da85521c7c9aac1df0)
 
@@ -250,7 +250,7 @@ Any of the scripts can be run individually at any time to update/reset as needed
     - follow the Github article for [Signing Commits](https://help.github.com/en/articles/signing-commits) to set up you GPG key(s).
     - I found this [GIST helpful](https://gist.github.com/cezaraugusto/2c91d141ddec026753051ffcace3f1f2)
     - To get VSCode setup follow this [article](https://dev.to/devmount/signed-git-commits-in-vs-code-36do)
-  - **Please Note** if you used the [Brewfile](https://github.com/edheltzel/dotfiles/blob/master/packages/Brewfile), Cask installed the macOS [GPG Suite](https://gpgtools.org/) via `cask 'gpg-suite-no-mail'` -- _(alternatively)_ update the [Brewfile](https://github.com/edheltzel/dotfiles/blob/master/packages/Brewfile) with `cask 'gpg-suite' to include GPGMail.
+  - **Please Note** if you used the [Brewfile](https://github.com/jurajpiar/dotfiles/blob/master/packages/Brewfile), Cask installed the macOS [GPG Suite](https://gpgtools.org/) via `cask 'gpg-suite-no-mail'` -- _(alternatively)_ update the [Brewfile](https://github.com/jurajpiar/dotfiles/blob/master/packages/Brewfile) with `cask 'gpg-suite' to include GPGMail.
 </details>
 <details>
   <summary>Rust and Cargo</summary>
@@ -316,7 +316,7 @@ Any of the scripts can be run individually at any time to update/reset as needed
   - [ ][Tuckr](https://github.com/RaphGL/Tuckr)
   - [ ][Rotz](https://github.com/volllly/rotz)
 - [ ] Convert fish functions to zsh functions - **WIP**
-- [ ] zsh completions seem to be broken [issue #40](https://github.com/edheltzel/dotfiles/issues/40)
+- [ ] zsh completions seem to be broken [issue #40](https://github.com/jurajpiar/dotfiles/issues/40)
   - [ ] Look into zsh-completions vs autocomplete
 - [ ] Consider using [NixOS](https://nixos.org/) for package management over Homebrew. ie: [good example](https://github.com/biosan/dotfiles)
 - [x] include zsh abbreviations
@@ -339,7 +339,7 @@ Any of the scripts can be run individually at any time to update/reset as needed
 [lazyVim]: https://www.lazyvim.org/
 [vscodeSyncSetting]: https://code.visualstudio.com/docs/editor/settings-sync
 [fishshell]: https://fishshell.com/
-[installFile]: https://github.com/edheltzel/dotfiles/blob/master/install.sh
+[installFile]: https://github.com/jurajpiar/dotfiles/blob/master/install.sh
 [ThanksGithub]: https://dotfiles.github.io/
 [ThanksGHInspiration]: https://dotfiles.github.io/inspiration
 [ThanksGHUtils]: https://dotfiles.github.io/utilities/
