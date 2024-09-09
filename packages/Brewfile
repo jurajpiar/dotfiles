@@ -5,7 +5,7 @@
 # Apps are sorted by category, and arranged alphabetically    #
 # Be sure to delete / comment out anything you do not need    #
 # Usage, run: $ brew bundle --global --file $HOME/.Brewfile   #
-# Source GH repository: https://github.com/edheltzel/Brewfile #
+# Source GH repository: https://github.com/jurajpiar/Brewfile #
 # See brew docs for more info: https://docs.brew.sh/Manpage   #
 #                                                             #
 # 1. Command Line                                             #
